@@ -150,5 +150,11 @@ git merge <branch>
 ~~~C++
 git add <filename>
 ~~~
+在合并改动之前，可以用以下命令来预览差异：
+
+~~~C++
+git diff <source_branch> <target_branch>
+~~~
+
 
 
