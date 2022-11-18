@@ -150,11 +150,18 @@ git merge <branch>
 ~~~C++
 git add <filename>
 ~~~
-在合并改动之前，可以用以下命令来预览差异：
+
+## 9、关于标签
+
+可以通过如下命令来创建一个叫1.0.0的标签：
 
 ~~~C++
-git diff <source_branch> <target_branch>
+git tag 1.0.0 1b2e1d63ff
 ~~~
 
+1b2e1d63ff是你想要标记的提交ID的前10位字符。使用下列命令获取提交ID:
 
+~~~git
+git log
+~~~
 
