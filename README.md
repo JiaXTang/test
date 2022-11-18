@@ -151,6 +151,12 @@ git merge <branch>
 git add <filename>
 ~~~
 
+在合并改动之前，可以用以下命令来预览差异：
+
+~~~C++
+git diff <source_branch> <target_branch>
+~~~
+
 ## 9、关于标签
 
 可以通过如下命令来创建一个叫1.0.0的标签：
